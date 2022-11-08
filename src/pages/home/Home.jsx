@@ -3,7 +3,7 @@ import Sidebar from "../../components/sidebar/Sidebar"
 import Posts from "../../components/posts/Posts"
 import "./home.css"
 import { useState,useEffect } from "react"
-import axios from "axios"
+import axios from "../../components/api/axios"
 import { useLocation } from "react-router"
 
 export default function Home() {

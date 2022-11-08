@@ -1,6 +1,6 @@
 import  './contact.css'
 import { useContext, useState } from "react";
-import axios from "axios"
+import axios from "../../components/api/axios"
 
 
 

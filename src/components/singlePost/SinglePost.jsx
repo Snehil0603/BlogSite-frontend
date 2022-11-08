@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 import "./singlePost.css";
 import { useState,useEffect,useContext } from "react"
-import axios from "axios"
+import axios from "../api/axios"
 import {
   Link
 } from "react-router-dom";
@@ -14,7 +14,7 @@ export default function SinglePost() {
   const path = location.pathname.split("/")[2]
   // console.log(path)
   const [post,setPost] =useState({})
-  const PF="http://localhost:5000/images/"
+  const PF="https://blog-site-backend.vercel.app/images/"
   const {user} =useContext(Context)
   const [title,setTitle] =useState("")
   const [desc,setDesc] =useState("")

@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import { useContext, useRef } from "react";
 import { Context } from "../../context/Context";
-import axios from "axios";
+import axios from "../../components/api/axios";
 
 export default function Login() {
 
